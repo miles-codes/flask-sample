@@ -1,0 +1,46 @@
+# Flask stuff
+flask < 0.11.0
+flask-sqlalchemy
+flask-alembic
+flask-script
+
+# Awesome Python REPL
+ipython >= 5
+ipdb
+
+# SQLAlchemy
+psycopg2                # PostgreSQL driver
+sqlalchemy-repr         # Nice repr for model instances
+
+# Some generally useful things every project should have
+pytz
+tzlocal
+pycountry
+unipath
+
+# Auth stuff
+PyJWT
+cryptography >= 1.3
+passlib
+
+# Controlers and API stuff
+requests
+marshmallow
+ostruct
+paginate
+
+# Test stuff
+pytest
+pytest-flask
+pytest-colordots
+pytest-spec
+pytest-cov
+vcrpy
+httpretty
+
+# Model factories
+factory-boy
+faker >= 0.6.0
+
+# deployment stuff
+gunicorn
